@@ -12,7 +12,7 @@ from KEYS import SUBSCRIBE_KEY, PUBLISH_KEY, UUID
 
 pnconfig = PNConfiguration()
 pnconfig.subscribe_key = SUBSCRIBE_KEY
-pnconfig.publish_key = PUBLISH_KEY
+pnconfig.publish_key = PUBLISH_KEY 
 pnconfig._uuid = UUID #important to provide uuid
 
 CHANNELS = {

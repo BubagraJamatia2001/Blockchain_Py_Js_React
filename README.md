@@ -1,5 +1,11 @@
+For this project to work, PubNub account is required.
+1. Make the PubNub account using the following link https://www.pubnub.com/
+2. After making an acoount open the Apps section and click on Make App button
+3. After creation of app successfully, provide the subscriber and publisher keys as SUBSCRIBE_KEY and PUBLISH_KEY in the KEY.py file in the root directory. Also provide UUID which is required.
+
+
 **Activate the Virtual Environment**
-***In Windows***
+***( In Windows )***
 ```
 .\blockchain-env\Sripts\activate.bat
 ```
