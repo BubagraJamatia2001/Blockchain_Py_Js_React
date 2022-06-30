@@ -16,17 +16,17 @@ pip install -r requirements.txt
 ```
 
 **Run the Tests**
-Make sure the virtual environment is activated.
+(Make sure the virtual environment is activated.)
 ```
 python -m pytest backend/tests
 ```
 **Run the Application and API**
-Make sure the activate the virtual environment
+(Make sure the virtual environment is activated.)
 ```
 python -m backend.app
 ```
 **Run a peer instance**
-Make sure the activate the virtual environment
+(Make sure the virtual environment is activated.)
 ```
 python -m backend.app PEER=True
 ```
@@ -36,7 +36,7 @@ cd .\frontend
 npm run start
 ```
 **SEED the backend with data**
-Make sure the activate the virtual environment
+(Make sure the virtual environment is activated.)
 ```
 python -m backend.app SEED=True
 ```
